@@ -23,4 +23,7 @@ public class MovieService {
         return movieRepository.getMovieList();
     }
 
+    public Movie saveMovie(Movie movie) {
+        return movieRepository.saveMovie(movie);
+    }
 }
